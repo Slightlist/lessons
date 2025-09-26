@@ -1,0 +1,52 @@
+@import url("reset.css");
+
+body {
+  color: #1a3a63;
+}
+
+.main-title {
+  color: darkblue;
+}
+
+#geography {
+  color: green;
+}
+
+a[href^="#"] {
+  color: orange;
+}
+
+h2, nav ul li a {
+  color: #ae1b1b;
+}
+
+nav > ul {
+  color: #990099;
+}
+
+article.ukraine p {
+  color: #34495e;
+}
+
+.section > h2 {
+  color: #009688;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+* {
+  color: #222;
+}
+
+ul li:last-child a {
+  color: teal;
+}
+
+.ukraine-image {
+  max-width: 1000px; 
+  height: auto;     
+  display: block;   
+  margin: 10px 0;   
+}
