@@ -1,0 +1,26 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Підключення шрифтів */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair%20Display:wght@400&display=swap"); */
+
+/* Основні стилі */
+
+/* Значення за замовченням  */
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #333;
+	color: #fff;
+
+	padding: 30px;
+}
+
+.image-x1,
+.image-x2,
+.image-x3 {
+	width: 440px;
+}
